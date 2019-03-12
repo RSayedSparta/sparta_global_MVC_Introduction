@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<a href="Profile.cshtml">Profile</a>
+<a href="AboutMe.cshtml">About Me</a>
+<a href="Education.cshtml">Education</a>
+<li>
+    @Html.ActionLink("Profile", "AboutMe", "Profile", new { @class = "elements" }, null)
+</li>
+
